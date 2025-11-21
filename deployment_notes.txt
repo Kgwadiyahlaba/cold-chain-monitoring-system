@@ -1,0 +1,8 @@
+1. Open Remix (https://remix.ethereum.org)
+2. Create ColdChainProof.sol and paste contract
+3. Compile with compiler 0.8.20 (enable optimization)
+4. Deploy using Injected Provider (MetaMask) on Sepolia
+5. After deploy, copy the contract address and the ABI
+6. Paste the ABI into backend/contract_abi.json and set CONTRACT_ADDRESS in backend/.env
+7. Add SEPOLIA_RPC (Infura/Alchemy) and WALLET_PRIVATE_KEY & WALLET_ADDRESS to environment
+8. Test by sending a POST to /api/data with a payload that triggers an alert (temperature > 8 or < -5 or door_state == "open")
