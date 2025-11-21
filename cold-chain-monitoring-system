@@ -1,0 +1,42 @@
+cold-chain-monitoring-system/
+│
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── contract_abi.json
+│   ├── .env.example
+│   └── README.md
+│
+├── esp32/
+│   ├── esp32_coldchain.ino
+│   └── README.md
+│
+├── mock_sensor/
+│   ├── mock_sensor.py
+│   └── README.md
+│
+├── dashboard/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── README.md
+│
+├── blockchain/
+│   ├── ColdChainProof.sol
+│   ├── deployment_notes.txt
+│   └── README.md
+│
+├── ai_agent/
+│   ├── agent_prompt.txt
+│   ├── ai_integration_notes.md
+│   └── README.md
+│
+├── documentation/
+│   ├── architecture_diagram.png
+│   ├── system_overview.pdf
+│   ├── pitch_deck.pdf
+│   ├── api_documentation.md
+│   └── README.md
+│
+└── README.md   ← main project README
+
